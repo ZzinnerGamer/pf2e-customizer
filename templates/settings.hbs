@@ -1,0 +1,15 @@
+<form class="pf2ec-form">
+  <p class="notes">{{hint}}</p>
+  <div class="pf2ec-grid">
+    {{#each rows}}
+      <div class="pf2ec-row">
+        <label for="pf2ec-{{this.slug}}">{{this.label}}</label>
+        <input type="checkbox" id="pf2ec-{{this.slug}}" name="vis.{{this.slug}}" {{#if this.visible}}checked{{/if}} />
+      </div>
+    {{/each}}
+  </div>
+  <div class="form-group" style="margin-top:12px; display:flex; gap:8px; justify-content:flex-end;">
+    <button type="button" id="pf2ec-reset"><i class="fas fa-undo"></i> {{localize "PF2EC.button.reset"}}</button>
+    <button type="submit"><i class="fas fa-save"></i> {{localize "PF2EC.button.save"}}</button>
+  </div>
+</form>

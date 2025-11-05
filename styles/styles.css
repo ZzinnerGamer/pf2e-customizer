@@ -1,0 +1,13 @@
+/* PF2e Customizer - minimal styles for the settings form */
+.pf2ec-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 12px;
+  align-items: center;
+}
+.pf2ec-grid .pf2ec-row {
+  display: contents;
+}
+.pf2ec-grid label {
+  font-weight: 500;
+}

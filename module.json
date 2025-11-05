@@ -1,0 +1,26 @@
+{
+  "id": "pf2e-customizer",
+  "title": "PF2e Customizer",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "description": "",
+  "esmodules": ["scripts/main.js"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Spanish",
+      "path": "lang/es.json"
+    }
+  ]
+}
